@@ -1,8 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "main": "index.js",
-  "type": "module",
+  "main": "index.js"
   "scripts": {
     "serve": "nodemon ./server.ts",
     "build": "tsc",
@@ -13,8 +12,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^4.21.2",
-    "tsc": "^2.0.4"
+    "express": "^4.21.2"
   },
   "devDependencies": {
     "@types/express": "^5.0.0",

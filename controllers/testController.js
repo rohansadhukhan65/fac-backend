@@ -1,4 +1,7 @@
-export const getVersion = async (request, response) => {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.getVersion = void 0;
+const getVersion = async (request, response) => {
     const dataResponse = { message: '', error: false, data: {} };
     try {
         dataResponse.message = '🟢 Success!';
@@ -12,3 +15,4 @@ export const getVersion = async (request, response) => {
         response.status(500).json(dataResponse);
     }
 };
+exports.getVersion = getVersion;
